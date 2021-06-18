@@ -1,0 +1,313 @@
+can I change my password,Account_Access-Profile_Password
+can I get a new password,Account_Access-Profile_Password
+how can I get a new password,Account_Access-Profile_Password
+I lost my password,Account_Access-Profile_Password
+password reset,Account_Access-Profile_Password
+reset my password,Account_Access-Profile_Password
+what is my account password,Account_Access-Profile_Password
+what is my password?,Account_Access-Profile_Password
+where can I find my password,Account_Access-Profile_Password
+How do I apply for financial support?,applyForUnemployment
+How do I apply for unemployment?,applyForUnemployment
+I'd like to apply for unemployment.,applyForUnemployment
+I need unemployment.,applyForUnemployment
+Tell me how to apply foer unemployment.,applyForUnemployment
+When can I expect an answer?,AskAboutStatus
+When will I get the money?,AskAboutStatus
+When will I hear from you about my status?,AskAboutStatus
+What is my unemployment status?,AskAboutStatus
+What's my application status?,AskAboutStatus
+do you know who you are,asking_who
+your name please,asking_who
+you did not tell me your name,asking_who
+you did not introduce yourself,asking_who
+who is talking,asking_who
+who are you again,asking_who
+who are you,asking_who
+who am I talking to,asking_who
+what's your name,asking_who
+what is your name,asking_who
+what is your designation,asking_who
+what are you called,asking_who
+I do not know who this is,asking_who
+BPM,BPM
+what is the service number,Business_Information-Phone_Number
+what is your customer support line,Business_Information-Phone_Number
+what is your number,Business_Information-Phone_Number
+what is your phone number,Business_Information-Phone_Number
+what is your support phone number,Business_Information-Phone_Number
+do you have a number I can call,Business_Information-Phone_Number
+do you have a 1-888 number,Business_Information-Phone_Number
+do you have a 1-800 number,Business_Information-Phone_Number
+do you have a 1 800 number ?,Business_Information-Phone_Number
+do you have a phone number,Business_Information-Phone_Number
+do you have a toll free number,Business_Information-Phone_Number
+I want to call you,Business_Information-Phone_Number
+what is the customer service number,Business_Information-Phone_Number
+what is the enquiries line,Business_Information-Phone_Number
+what is the phone line I can call,Business_Information-Phone_Number
+What is the phone number for customer service?,Business_Information-Phone_Number
+what is the toll free number,Business_Information-Phone_Number
+are you real,chat_capabilities
+what do you know,chat_capabilities
+what can you talk about,chat_capabilities
+what can you help with,chat_capabilities
+what can you do,chat_capabilities
+what can you answer,chat_capabilities
+what are you,chat_capabilities
+do you know about,chat_capabilities
+can you help me with,chat_capabilities
+are you a real person,chat_capabilities
+what information do you know,chat_capabilities
+diagnostic,diagnostic
+daig,diagnostic
+diag,diagnostic
+diga,diagnostic
+Can anybody have unemployment,eligibility
+am i entitled to unemployment,eligibility
+Am I eligible for unemployment?,eligibility
+Do I qualify for unemployment?,eligibility
+how do i know if i am eligible to apply for unemployment,eligibility
+I am unemployed can I still get unemployment,eligibility
+is unemployment easy to get,eligibility
+am i allowed to apply for unemployment,eligibility
+can I apply for unemployment with a casual job,eligibility
+I want  apply i will get the unemployment or not,eligibility
+want apply for unemployment so what is the requirement,eligibility
+want to apply for unemployment what is your criteria,eligibility
+Can everybody receive unemployment,eligibility
+can I apply for unemployment with no employment,eligibility
+Can everybody apply for unemployment,eligibility
+Can anyone receive unemployment,eligibility
+How are you?,General-Conversation
+how are things with you,General-Conversation
+have you been well,General-Conversation
+have you been good,General-Conversation
+everything is ok?,General-Conversation
+how is everything,General-Conversation
+how is your day going,General-Conversation
+how is yourself,General-Conversation
+how was your day,General-Conversation
+how you doing,General-Conversation
+how you going,General-Conversation
+is everything alright,General-Conversation
+are you doing alright,General-Conversation
+are you fine,General-Conversation
+how goes it,General-Conversation
+how are you this evening,General-Conversation
+how are you feeling,General-Conversation
+what can a virtual assistant do,General_Conversation-About_VAs
+are virtual agents real people,General_Conversation-About_VAs
+are virtual assistants robots,General_Conversation-About_VAs
+what does the virtual agent mean,General_Conversation-About_VAs
+what is an online assistant,General_Conversation-About_VAs
+what is a virtual agent,General_Conversation-About_VAs
+what is a virtual assistant,General_Conversation-About_VAs
+I want to go back to the last question,General_Conversation-Control_Go_Back
+i want to change the previous answer,General_Conversation-Control_Go_Back
+i changed my mind,General_Conversation-Control_Go_Back
+go baclk,General_Conversation-Control_Go_Back
+Go back,General_Conversation-Control_Go_Back
+can we go to the previous step,General_Conversation-Control_Go_Back
+can i go back one step,General_Conversation-Control_Go_Back
+Can I go back,General_Conversation-Control_Go_Back
+can i change what I just said,General_Conversation-Control_Go_Back
+can i change the answer I just gave,General_Conversation-Control_Go_Back
+can i change my answer,General_Conversation-Control_Go_Back
+take a step back,General_Conversation-Control_Go_Back
+I want to go back,General_Conversation-Control_Go_Back
+can i go to the next step,General_Conversation-Control_Skip_Step
+can I skip this,General_Conversation-Control_Skip_Step
+just move on,General_Conversation-Control_Skip_Step
+move on,General_Conversation-Control_Skip_Step
+skip over this,General_Conversation-Control_Skip_Step
+skip this,General_Conversation-Control_Skip_Step
+can we talk about something else,General_Conversation-Control_Stop_Conversation
+can we stop,General_Conversation-Control_Stop_Conversation
+i want to stop,General_Conversation-Control_Stop_Conversation
+I don't want to continue,General_Conversation-Control_Stop_Conversation
+I want to change the subject,General_Conversation-Control_Stop_Conversation
+I am not interested,General_Conversation-Control_Stop_Conversation
+can we end this early,General_Conversation-Control_Stop_Conversation
+i don't want to,General_Conversation-Control_Stop_Conversation
+let's talk about something else,General_Conversation-Control_Stop_Conversation
+put a top to this,General_Conversation-Control_Stop_Conversation
+stop,General_Conversation-Control_Stop_Conversation
+can we finish this,General_Conversation-Control_Stop_Conversation
+Right now I'm enraged,General_Conversation-Customer_Emotion_Anger
+I am angry,General_Conversation-Customer_Emotion_Anger
+I am enraged,General_Conversation-Customer_Emotion_Anger
+i am fed up,General_Conversation-Customer_Emotion_Anger
+I am feeling very angry,General_Conversation-Customer_Emotion_Anger
+I am getting annoyed,General_Conversation-Customer_Emotion_Anger
+I am so angry,General_Conversation-Customer_Emotion_Anger
+I am so annoyed,General_Conversation-Customer_Emotion_Anger
+I am so mad right now,General_Conversation-Customer_Emotion_Anger
+I feel fed up,General_Conversation-Customer_Emotion_Anger
+you are good for nothing,General_Conversation-Feedback_Negative
+you are bad,General_Conversation-Feedback_Negative
+you are annoying,General_Conversation-Feedback_Negative
+This thing is rubbish,General_Conversation-Feedback_Negative
+This is useless,General_Conversation-Feedback_Negative
+this is trash,General_Conversation-Feedback_Negative
+i hate you,General_Conversation-Feedback_Negative
+i hate this,General_Conversation-Feedback_Negative
+I do not like you,General_Conversation-Feedback_Negative
+you let me down,General_Conversation-Feedback_Negative
+you irritate me,General_Conversation-Feedback_Negative
+you did not answer the question,General_Conversation-Feedback_Negative
+You are useless,General_Conversation-Feedback_Negative
+You are talking rubbish,General_Conversation-Feedback_Negative
+You are rubbish,General_Conversation-Feedback_Negative
+you are repetitive,General_Conversation-Feedback_Negative
+you are repeating yourself,General_Conversation-Feedback_Negative
+you are not smart,General_Conversation-Feedback_Negative
+you are horrible,General_Conversation-Feedback_Negative
+You are one of the coolest,General_Conversation-Feedback_Positive
+you are mesmerizing,General_Conversation-Feedback_Positive
+you are doing quite well,General_Conversation-Feedback_Positive
+you are awesome,General_Conversation-Feedback_Positive
+i like you,General_Conversation-Feedback_Positive
+this is great,General_Conversation-Feedback_Positive
+how cool is this,General_Conversation-Feedback_Positive
+this is cool,General_Conversation-Feedback_Positive
+that was a great answer,General_Conversation-Feedback_Positive
+you are intelligent,General_Conversation-Feedback_Positive
+You are good,General_Conversation-Feedback_Positive
+you are fabulous,General_Conversation-Feedback_Positive
+you are doing really well,General_Conversation-Feedback_Positive
+this is fantastic,General_Conversation-Feedback_Positive
+i like this,General_Conversation-Feedback_Positive
+you sound good,General_Conversation-Feedback_Positive
+you rock,General_Conversation-Feedback_Positive
+You really are good,General_Conversation-Feedback_Positive
+you are really smart,General_Conversation-Feedback_Positive
+good evening,General_Conversation-Greetings
+greetings,General_Conversation-Greetings
+hello,General_Conversation-Greetings
+hi there,General_Conversation-Greetings
+wassup,General_Conversation-Greetings
+what is up,General_Conversation-Greetings
+what's up,General_Conversation-Greetings
+and helllo to you,General_Conversation-Greetings
+good afternoon,General_Conversation-Greetings
+good morning,General_Conversation-Greetings
+can we start again,General_Conversation-Start_Over
+restart please,General_Conversation-Start_Over
+reset this,General_Conversation-Start_Over
+let's restart,General_Conversation-Start_Over
+go back to the start,General_Conversation-Start_Over
+can we start from the beginning,General_Conversation-Start_Over
+cool,General_Conversation-Thanks
+coolies,General_Conversation-Thanks
+coolio,General_Conversation-Thanks
+ta,General_Conversation-Thanks
+Thanks,General_Conversation-Thanks
+thank you,General_Conversation-Thanks
+what is the time,General_Conversation-Time
+it is breakfast time yet,General_Conversation-Time
+What time is it?,General_Conversation-Time
+is it time for lunch,General_Conversation-Time
+is it morning,General_Conversation-Time
+is it evening yet,General_Conversation-Time
+is it dinner time now,General_Conversation-Time
+do you know the time,General_Conversation-Time
+do you have the time,General_Conversation-Time
+do you hate your job?,General_Conversation-Work
+do you enjoy working,General_Conversation-Work
+do you enjoy your work,General_Conversation-Work
+do you feel happy about your job?,General_Conversation-Work
+do you like what you do,General_Conversation-Work
+Do you like your work?,General_Conversation-Work
+how do you feel about your job,General_Conversation-Work
+how do you feel about your work,General_Conversation-Work
+bye,goodbye
+so long,goodbye
+see ya later,goodbye
+let's end this,goodbye
+I'll be going now,goodbye
+I have got to go now,goodbye
+good night,goodbye
+goodbye,goodbye
+farewell,goodbye
+I'm confused now,guidance_request
+I don't know what to do,guidance_request
+tell me what to do,guidance_request
+tell me what I type here,guidance_request
+This is confused,guidance_request
+what do I do,guidance_request
+what happens next,guidance_request
+what happens now,guidance_request
+what next,guidance_request
+what now,guidance_request
+what's next,guidance_request
+now what,guidance_request
+is that it?,guidance_request
+I'm lost,guidance_request
+I'm confused here,guidance_request
+Where are the actual people?,Help-Connect_to_Agent
+transfer me to someone real,Help-Connect_to_Agent
+transfer me to a person,Help-Connect_to_Agent
+transfer me to a live agent,Help-Connect_to_Agent
+talk to an actual person,Help-Connect_to_Agent
+talk to a human,Help-Connect_to_Agent
+real person,Help-Connect_to_Agent
+need someone real,Help-Connect_to_Agent
+need help from a real person,Help-Connect_to_Agent
+May I speak with somebody?,Help-Connect_to_Agent
+I would like to talk to a manager,Help-Connect_to_Agent
+I would like to chat to a human please.,Help-Connect_to_Agent
+i want to talk to someone real,Help-Connect_to_Agent
+I want to talk to a live person,Help-Connect_to_Agent
+I want to talk to a customer service representative please.,Help-Connect_to_Agent
+i want a live agent,Help-Connect_to_Agent
+i want a human to help,Help-Connect_to_Agent
+give me a person,Help-Connect_to_Agent
+give me a human agent,Help-Connect_to_Agent
+connect me with a real person,Help-Connect_to_Agent
+Can you connect me with an humant agent?,Help-Connect_to_Agent
+can you connect me to a person,Help-Connect_to_Agent
+can i talk to someone who is real,Help-Connect_to_Agent
+can I be connected to a real person,Help-Connect_to_Agent
+tell me about the security for this chat,Help-Security_Assurance
+should i provide personal information,Help-Security_Assurance
+is this conversation secure,Help-Security_Assurance
+is it safe to talk to a virtual assistant,Help-Security_Assurance
+is it safe givign you secure data,Help-Security_Assurance
+how secure is this information,Help-Security_Assurance
+do you protect my privacy,Help-Security_Assurance
+can I provide personal information safely in this conversation,Help-Security_Assurance
+So happy right now,joy
+I am thrilled,joy
+I am the happiest,joy
+I am full of joy,joy
+I am feeling much happier,joy
+I am feeling happy,joy
+I feel ecstatic today,joy
+My mood has improved,joy
+You made me feel happy,joy
+I am happy,joy
+What are your thoughts on movies?,movie_conversation
+Do you enjoy watching films,movie_conversation
+Do you like movies,movie_conversation
+Do you like watching films,movie_conversation
+have you seen any good movies,movie_conversation
+let's go to the movies!,movie_conversation
+Let us talk about movies,movie_conversation
+You said you liked movies,movie_conversation
+What was the last movie you saw?,movie_conversation
+What do you think about movies?,movie_conversation
+What do you like about movies,movie_conversation
+What are your thoughts on watching films,movie_conversation
+What are your thoughts on movies generally?,movie_conversation
+okay but why,why
+why this,why
+?,why
+this why,why
+why,why
+can we go without this,why_needed
+do you need this,why_needed
+I don't want to provide this,why_needed
+why do you need this,why_needed
+why is this needed,why_needed
+you don't need this,why_needed

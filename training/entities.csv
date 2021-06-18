@@ -1,0 +1,21 @@
+Comparisons,long,longest time,large,large time span,long time,not short,too long,long
+Comparisons,low,low,a little bit,under the,very low,not enough,too low
+Comparisons,short,not long,small,small time span,short time,short,too short
+Comparisons,high,high,a lot,over the,very high,too much,too high
+contact_type,SMS,text message,phone message
+contact_type,social_media,google +,google plus,youtube,you tube,instagram,twitter,social page,linked in,linkedin,facebook
+contact_type,call,talk to,service number,contact number,toll free number,toll free,ring,phone numbers,phone number,phone,number,1 800,0800
+contact_type,email,email address,electronic mail,contact email
+contact_type,address,stop by,drop in,face to face,in person,situated,located,shop fronts,shopfronts,shop front,shopfront,physical locations,physical location,offices,office,locations,location,branches,branch,address
+no,no
+person_data,password,pass-word,pass word
+person_data,name,spouse's name,partner's name,wife's name,surname,second name,middle name,married name,maiden name,husband's name,given name,first name
+person_data,phone_number,phone,number,contact number
+person_data,username,login-name,user-name,user name,system login,login name,login ID
+person_data,address,unit,street address,mailing address,location,house,home,billing address,apartment
+PinNumber,pin,/00[0-9]/
+ResponseTypes,Other,none,not there,neither of,not any of,none of the above,different,other
+ResponseTypes,positive,correct,mhm,100%,sure is,sounds right,sounds about right,you betcha,you bet,yer,yup,okay,ok,yah,ya,go right ahead,go on,go ahead,sure,y,yeah,absolutely,definitely,totally,yeppers,yep,yes
+ResponseTypes,uncertain,i think it is,i think so,i guess it is,i guess so,unsure,on the fence,could be,maybe,unknown,no idea,don't know,not sure,uncertain
+ResponseTypes,negative,incorrect,is that a joke,you're joking,sure isn't,nah,na,don't even think about it,nopers,don't do that,don't do it,n,no way,not even close,definitely not,not at all,noppers,nope,no
+yes,yes

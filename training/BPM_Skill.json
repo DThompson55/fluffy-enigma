@@ -1,0 +1,2169 @@
+{
+  "intents": [
+    {
+      "intent": "Account_Access-Profile_Password",
+      "examples": [
+        {
+          "text": "can I change my password"
+        },
+        {
+          "text": "can I get a new password"
+        },
+        {
+          "text": "how can I get a new password"
+        },
+        {
+          "text": "I lost my password"
+        },
+        {
+          "text": "password reset"
+        },
+        {
+          "text": "reset my password"
+        },
+        {
+          "text": "what is my account password"
+        },
+        {
+          "text": "what is my password?"
+        },
+        {
+          "text": "where can I find my password"
+        }
+      ]
+    },
+    {
+      "intent": "applyForUnemployment",
+      "examples": [
+        {
+          "text": "How do I apply for financial support?"
+        },
+        {
+          "text": "How do I apply for unemployment?"
+        },
+        {
+          "text": "I'd like to apply for unemployment."
+        },
+        {
+          "text": "I need unemployment."
+        },
+        {
+          "text": "Tell me how to apply foer unemployment."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "AskAboutStatus",
+      "examples": [
+        {
+          "text": "What is my unemployment status?"
+        },
+        {
+          "text": "What's my application status?"
+        },
+        {
+          "text": "When can I expect an answer?"
+        },
+        {
+          "text": "When will I get the money?"
+        },
+        {
+          "text": "When will I hear from you about my status?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "asking_who",
+      "examples": [
+        {
+          "text": "do you know who you are"
+        },
+        {
+          "text": "I do not know who this is"
+        },
+        {
+          "text": "what are you called"
+        },
+        {
+          "text": "what is your designation"
+        },
+        {
+          "text": "what is your name"
+        },
+        {
+          "text": "what's your name"
+        },
+        {
+          "text": "who am I talking to"
+        },
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "who are you again"
+        },
+        {
+          "text": "who is talking"
+        },
+        {
+          "text": "you did not introduce yourself"
+        },
+        {
+          "text": "you did not tell me your name"
+        },
+        {
+          "text": "your name please"
+        }
+      ]
+    },
+    {
+      "intent": "BPM",
+      "examples": [
+        {
+          "text": "BPM"
+        }
+      ],
+      "description": "This is a system interaction intent"
+    },
+    {
+      "intent": "Business_Information-Phone_Number",
+      "examples": [
+        {
+          "text": "do you have a 1 800 number ?"
+        },
+        {
+          "text": "do you have a 1-800 number"
+        },
+        {
+          "text": "do you have a 1-888 number"
+        },
+        {
+          "text": "do you have a number I can call"
+        },
+        {
+          "text": "do you have a phone number"
+        },
+        {
+          "text": "do you have a toll free number"
+        },
+        {
+          "text": "I want to call you"
+        },
+        {
+          "text": "what is the customer service number"
+        },
+        {
+          "text": "what is the enquiries line"
+        },
+        {
+          "text": "what is the phone line I can call"
+        },
+        {
+          "text": "What is the phone number for customer service?"
+        },
+        {
+          "text": "what is the service number"
+        },
+        {
+          "text": "what is the toll free number"
+        },
+        {
+          "text": "what is your customer support line"
+        },
+        {
+          "text": "what is your number"
+        },
+        {
+          "text": "what is your phone number"
+        },
+        {
+          "text": "what is your support phone number"
+        }
+      ]
+    },
+    {
+      "intent": "chat_capabilities",
+      "examples": [
+        {
+          "text": "are you a real person"
+        },
+        {
+          "text": "are you real"
+        },
+        {
+          "text": "can you help me with"
+        },
+        {
+          "text": "do you know about"
+        },
+        {
+          "text": "what are you"
+        },
+        {
+          "text": "what can you answer"
+        },
+        {
+          "text": "what can you do"
+        },
+        {
+          "text": "what can you help with"
+        },
+        {
+          "text": "what can you talk about"
+        },
+        {
+          "text": "what do you know"
+        },
+        {
+          "text": "what information do you know"
+        }
+      ]
+    },
+    {
+      "intent": "diagnostic",
+      "examples": [
+        {
+          "text": "daig"
+        },
+        {
+          "text": "diag"
+        },
+        {
+          "text": "diagnostic"
+        },
+        {
+          "text": "diga"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eligibility",
+      "examples": [
+        {
+          "text": "am i allowed to apply for unemployment"
+        },
+        {
+          "text": "Am I eligible for unemployment?"
+        },
+        {
+          "text": "am i entitled to unemployment"
+        },
+        {
+          "text": "Can anybody have unemployment"
+        },
+        {
+          "text": "Can anyone receive unemployment"
+        },
+        {
+          "text": "Can everybody apply for unemployment"
+        },
+        {
+          "text": "Can everybody receive unemployment"
+        },
+        {
+          "text": "can I apply for unemployment with a casual job"
+        },
+        {
+          "text": "can I apply for unemployment with no employment"
+        },
+        {
+          "text": "Do I qualify for unemployment?"
+        },
+        {
+          "text": "how do i know if i am eligible to apply for unemployment"
+        },
+        {
+          "text": "I am unemployed can I still get unemployment"
+        },
+        {
+          "text": "is unemployment easy to get"
+        },
+        {
+          "text": "I want  apply i will get the unemployment or not"
+        },
+        {
+          "text": "want apply for unemployment so what is the requirement"
+        },
+        {
+          "text": "want to apply for unemployment what is your criteria"
+        }
+      ]
+    },
+    {
+      "intent": "General-Conversation",
+      "examples": [
+        {
+          "text": "are you doing alright"
+        },
+        {
+          "text": "are you fine"
+        },
+        {
+          "text": "everything is ok?"
+        },
+        {
+          "text": "have you been good"
+        },
+        {
+          "text": "have you been well"
+        },
+        {
+          "text": "how are things with you"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "how are you feeling"
+        },
+        {
+          "text": "how are you this evening"
+        },
+        {
+          "text": "how goes it"
+        },
+        {
+          "text": "how is everything"
+        },
+        {
+          "text": "how is your day going"
+        },
+        {
+          "text": "how is yourself"
+        },
+        {
+          "text": "how was your day"
+        },
+        {
+          "text": "how you doing"
+        },
+        {
+          "text": "how you going"
+        },
+        {
+          "text": "is everything alright"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-About_VAs",
+      "examples": [
+        {
+          "text": "are virtual agents real people"
+        },
+        {
+          "text": "are virtual assistants robots"
+        },
+        {
+          "text": "what can a virtual assistant do"
+        },
+        {
+          "text": "what does the virtual agent mean"
+        },
+        {
+          "text": "what is an online assistant"
+        },
+        {
+          "text": "what is a virtual agent"
+        },
+        {
+          "text": "what is a virtual assistant"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Control_Go_Back",
+      "examples": [
+        {
+          "text": "can i change my answer"
+        },
+        {
+          "text": "can i change the answer I just gave"
+        },
+        {
+          "text": "can i change what I just said"
+        },
+        {
+          "text": "Can I go back"
+        },
+        {
+          "text": "can i go back one step"
+        },
+        {
+          "text": "can we go to the previous step"
+        },
+        {
+          "text": "Go back"
+        },
+        {
+          "text": "go baclk"
+        },
+        {
+          "text": "i changed my mind"
+        },
+        {
+          "text": "i want to change the previous answer"
+        },
+        {
+          "text": "I want to go back"
+        },
+        {
+          "text": "I want to go back to the last question"
+        },
+        {
+          "text": "take a step back"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Control_Skip_Step",
+      "examples": [
+        {
+          "text": "can i go to the next step"
+        },
+        {
+          "text": "can I skip this"
+        },
+        {
+          "text": "just move on"
+        },
+        {
+          "text": "move on"
+        },
+        {
+          "text": "skip over this"
+        },
+        {
+          "text": "skip this"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Control_Stop_Conversation",
+      "examples": [
+        {
+          "text": "can we end this early"
+        },
+        {
+          "text": "can we finish this"
+        },
+        {
+          "text": "can we stop"
+        },
+        {
+          "text": "can we talk about something else"
+        },
+        {
+          "text": "I am not interested"
+        },
+        {
+          "text": "i don't want to"
+        },
+        {
+          "text": "I don't want to continue"
+        },
+        {
+          "text": "I want to change the subject"
+        },
+        {
+          "text": "i want to stop"
+        },
+        {
+          "text": "let's talk about something else"
+        },
+        {
+          "text": "put a top to this"
+        },
+        {
+          "text": "stop"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Customer_Emotion_Anger",
+      "examples": [
+        {
+          "text": "I am angry"
+        },
+        {
+          "text": "I am enraged"
+        },
+        {
+          "text": "i am fed up"
+        },
+        {
+          "text": "I am feeling very angry"
+        },
+        {
+          "text": "I am getting annoyed"
+        },
+        {
+          "text": "I am so angry"
+        },
+        {
+          "text": "I am so annoyed"
+        },
+        {
+          "text": "I am so mad right now"
+        },
+        {
+          "text": "I feel fed up"
+        },
+        {
+          "text": "Right now I'm enraged"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Feedback_Negative",
+      "examples": [
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "i hate this"
+        },
+        {
+          "text": "i hate you"
+        },
+        {
+          "text": "this is trash"
+        },
+        {
+          "text": "This is useless"
+        },
+        {
+          "text": "This thing is rubbish"
+        },
+        {
+          "text": "you are annoying"
+        },
+        {
+          "text": "you are bad"
+        },
+        {
+          "text": "you are good for nothing"
+        },
+        {
+          "text": "you are horrible"
+        },
+        {
+          "text": "you are not smart"
+        },
+        {
+          "text": "you are repeating yourself"
+        },
+        {
+          "text": "you are repetitive"
+        },
+        {
+          "text": "You are rubbish"
+        },
+        {
+          "text": "You are talking rubbish"
+        },
+        {
+          "text": "You are useless"
+        },
+        {
+          "text": "you did not answer the question"
+        },
+        {
+          "text": "you irritate me"
+        },
+        {
+          "text": "you let me down"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Feedback_Positive",
+      "examples": [
+        {
+          "text": "how cool is this"
+        },
+        {
+          "text": "i like this"
+        },
+        {
+          "text": "i like you"
+        },
+        {
+          "text": "that was a great answer"
+        },
+        {
+          "text": "this is cool"
+        },
+        {
+          "text": "this is fantastic"
+        },
+        {
+          "text": "this is great"
+        },
+        {
+          "text": "you are awesome"
+        },
+        {
+          "text": "you are doing quite well"
+        },
+        {
+          "text": "you are doing really well"
+        },
+        {
+          "text": "you are fabulous"
+        },
+        {
+          "text": "You are good"
+        },
+        {
+          "text": "you are intelligent"
+        },
+        {
+          "text": "you are mesmerizing"
+        },
+        {
+          "text": "You are one of the coolest"
+        },
+        {
+          "text": "you are really smart"
+        },
+        {
+          "text": "You really are good"
+        },
+        {
+          "text": "you rock"
+        },
+        {
+          "text": "you sound good"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Greetings",
+      "examples": [
+        {
+          "text": "and helllo to you"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "wassup"
+        },
+        {
+          "text": "what is up"
+        },
+        {
+          "text": "what's up"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Start_Over",
+      "examples": [
+        {
+          "text": "can we start again"
+        },
+        {
+          "text": "can we start from the beginning"
+        },
+        {
+          "text": "go back to the start"
+        },
+        {
+          "text": "let's restart"
+        },
+        {
+          "text": "reset this"
+        },
+        {
+          "text": "restart please"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Thanks",
+      "examples": [
+        {
+          "text": "cool"
+        },
+        {
+          "text": "coolies"
+        },
+        {
+          "text": "coolio"
+        },
+        {
+          "text": "ta"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "thank you"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Time",
+      "examples": [
+        {
+          "text": "do you have the time"
+        },
+        {
+          "text": "do you know the time"
+        },
+        {
+          "text": "is it dinner time now"
+        },
+        {
+          "text": "is it evening yet"
+        },
+        {
+          "text": "is it morning"
+        },
+        {
+          "text": "is it time for lunch"
+        },
+        {
+          "text": "it is breakfast time yet"
+        },
+        {
+          "text": "what is the time"
+        },
+        {
+          "text": "What time is it?"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Work",
+      "examples": [
+        {
+          "text": "do you enjoy working"
+        },
+        {
+          "text": "do you enjoy your work"
+        },
+        {
+          "text": "do you feel happy about your job?"
+        },
+        {
+          "text": "do you hate your job?"
+        },
+        {
+          "text": "do you like what you do"
+        },
+        {
+          "text": "Do you like your work?"
+        },
+        {
+          "text": "how do you feel about your job"
+        },
+        {
+          "text": "how do you feel about your work"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "I have got to go now"
+        },
+        {
+          "text": "I'll be going now"
+        },
+        {
+          "text": "let's end this"
+        },
+        {
+          "text": "see ya later"
+        },
+        {
+          "text": "so long"
+        }
+      ]
+    },
+    {
+      "intent": "guidance_request",
+      "examples": [
+        {
+          "text": "I don't know what to do"
+        },
+        {
+          "text": "I'm confused here"
+        },
+        {
+          "text": "I'm confused now"
+        },
+        {
+          "text": "I'm lost"
+        },
+        {
+          "text": "is that it?"
+        },
+        {
+          "text": "now what"
+        },
+        {
+          "text": "tell me what I type here"
+        },
+        {
+          "text": "tell me what to do"
+        },
+        {
+          "text": "This is confused"
+        },
+        {
+          "text": "what do I do"
+        },
+        {
+          "text": "what happens next"
+        },
+        {
+          "text": "what happens now"
+        },
+        {
+          "text": "what next"
+        },
+        {
+          "text": "what now"
+        },
+        {
+          "text": "what's next"
+        }
+      ]
+    },
+    {
+      "intent": "Help-Connect_to_Agent",
+      "examples": [
+        {
+          "text": "can I be connected to a real person"
+        },
+        {
+          "text": "can i talk to someone who is real"
+        },
+        {
+          "text": "can you connect me to a person"
+        },
+        {
+          "text": "Can you connect me with an humant agent?"
+        },
+        {
+          "text": "connect me with a real person"
+        },
+        {
+          "text": "give me a human agent"
+        },
+        {
+          "text": "give me a person"
+        },
+        {
+          "text": "i want a human to help"
+        },
+        {
+          "text": "i want a live agent"
+        },
+        {
+          "text": "I want to talk to a customer service representative please."
+        },
+        {
+          "text": "I want to talk to a live person"
+        },
+        {
+          "text": "i want to talk to someone real"
+        },
+        {
+          "text": "I would like to chat to a human please."
+        },
+        {
+          "text": "I would like to talk to a manager"
+        },
+        {
+          "text": "May I speak with somebody?"
+        },
+        {
+          "text": "need help from a real person"
+        },
+        {
+          "text": "need someone real"
+        },
+        {
+          "text": "real person"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "talk to an actual person"
+        },
+        {
+          "text": "transfer me to a live agent"
+        },
+        {
+          "text": "transfer me to a person"
+        },
+        {
+          "text": "transfer me to someone real"
+        },
+        {
+          "text": "Where are the actual people?"
+        }
+      ]
+    },
+    {
+      "intent": "Help-Security_Assurance",
+      "examples": [
+        {
+          "text": "can I provide personal information safely in this conversation"
+        },
+        {
+          "text": "do you protect my privacy"
+        },
+        {
+          "text": "how secure is this information"
+        },
+        {
+          "text": "is it safe givign you secure data"
+        },
+        {
+          "text": "is it safe to talk to a virtual assistant"
+        },
+        {
+          "text": "is this conversation secure"
+        },
+        {
+          "text": "should i provide personal information"
+        },
+        {
+          "text": "tell me about the security for this chat"
+        }
+      ]
+    },
+    {
+      "intent": "joy",
+      "examples": [
+        {
+          "text": "I am feeling happy"
+        },
+        {
+          "text": "I am feeling much happier"
+        },
+        {
+          "text": "I am full of joy"
+        },
+        {
+          "text": "I am happy"
+        },
+        {
+          "text": "I am the happiest"
+        },
+        {
+          "text": "I am thrilled"
+        },
+        {
+          "text": "I feel ecstatic today"
+        },
+        {
+          "text": "My mood has improved"
+        },
+        {
+          "text": "So happy right now"
+        },
+        {
+          "text": "You made me feel happy"
+        }
+      ]
+    },
+    {
+      "intent": "movie_conversation",
+      "examples": [
+        {
+          "text": "Do you enjoy watching films"
+        },
+        {
+          "text": "Do you like movies"
+        },
+        {
+          "text": "Do you like watching films"
+        },
+        {
+          "text": "have you seen any good movies"
+        },
+        {
+          "text": "let's go to the movies!"
+        },
+        {
+          "text": "Let us talk about movies"
+        },
+        {
+          "text": "What are your thoughts on movies?"
+        },
+        {
+          "text": "What are your thoughts on movies generally?"
+        },
+        {
+          "text": "What are your thoughts on watching films"
+        },
+        {
+          "text": "What do you like about movies"
+        },
+        {
+          "text": "What do you think about movies?"
+        },
+        {
+          "text": "What was the last movie you saw?"
+        },
+        {
+          "text": "You said you liked movies"
+        }
+      ]
+    },
+    {
+      "intent": "why",
+      "examples": [
+        {
+          "text": "?"
+        },
+        {
+          "text": "okay but why"
+        },
+        {
+          "text": "this why"
+        },
+        {
+          "text": "why"
+        },
+        {
+          "text": "why this"
+        }
+      ]
+    },
+    {
+      "intent": "why_needed",
+      "examples": [
+        {
+          "text": "can we go without this"
+        },
+        {
+          "text": "do you need this"
+        },
+        {
+          "text": "I don't want to provide this"
+        },
+        {
+          "text": "why do you need this"
+        },
+        {
+          "text": "why is this needed"
+        },
+        {
+          "text": "you don't need this"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Comparisons",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "high",
+          "synonyms": [
+            "a lot",
+            "high",
+            "over the",
+            "too high",
+            "too much",
+            "very high"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "long",
+          "synonyms": [
+            "large",
+            "large time span",
+            "long",
+            "longest time",
+            "long time",
+            "not short",
+            "too long"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "low",
+          "synonyms": [
+            "a little bit",
+            "low",
+            "not enough",
+            "too low",
+            "under the",
+            "very low"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "short",
+          "synonyms": [
+            "not long",
+            "short",
+            "short time",
+            "small",
+            "small time span",
+            "too short"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "contact_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "address",
+          "synonyms": [
+            "address",
+            "branch",
+            "branches",
+            "drop in",
+            "face to face",
+            "in person",
+            "located",
+            "location",
+            "locations",
+            "office",
+            "offices",
+            "physical location",
+            "physical locations",
+            "shop front",
+            "shopfront",
+            "shop fronts",
+            "shopfronts",
+            "situated",
+            "stop by"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "call",
+          "synonyms": [
+            "0800",
+            "1 800",
+            "contact number",
+            "number",
+            "phone",
+            "phone number",
+            "phone numbers",
+            "ring",
+            "service number",
+            "talk to",
+            "toll free",
+            "toll free number"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "contact email",
+            "electronic mail",
+            "email address"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SMS",
+          "synonyms": [
+            "phone message",
+            "text message"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "social_media",
+          "synonyms": [
+            "facebook",
+            "google +",
+            "google plus",
+            "instagram",
+            "linked in",
+            "linkedin",
+            "social page",
+            "twitter",
+            "you tube",
+            "youtube"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "person_data",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "address",
+          "synonyms": [
+            "apartment",
+            "billing address",
+            "home",
+            "house",
+            "location",
+            "mailing address",
+            "street address",
+            "unit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "first name",
+            "given name",
+            "husband's name",
+            "maiden name",
+            "married name",
+            "middle name",
+            "partner's name",
+            "second name",
+            "spouse's name",
+            "surname",
+            "wife's name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "password",
+          "synonyms": [
+            "pass word",
+            "pass-word"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "phone_number",
+          "synonyms": [
+            "contact number",
+            "number",
+            "phone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "username",
+          "synonyms": [
+            "login ID",
+            "login name",
+            "login-name",
+            "system login",
+            "user name",
+            "user-name"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "PinNumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "pin",
+          "patterns": [
+            "00[0-9]"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ResponseTypes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negative",
+          "synonyms": [
+            "definitely not",
+            "don't do it",
+            "don't do that",
+            "don't even think about it",
+            "incorrect",
+            "is that a joke",
+            "n",
+            "na",
+            "nah",
+            "no",
+            "nope",
+            "nopers",
+            "noppers",
+            "not at all",
+            "not even close",
+            "no way",
+            "sure isn't",
+            "you're joking"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other",
+          "synonyms": [
+            "different",
+            "neither of",
+            "none",
+            "none of the above",
+            "not any of",
+            "not there",
+            "other"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "positive",
+          "synonyms": [
+            "100%",
+            "absolutely",
+            "correct",
+            "definitely",
+            "go ahead",
+            "go on",
+            "go right ahead",
+            "mhm",
+            "ok",
+            "okay",
+            "sounds about right",
+            "sounds right",
+            "sure",
+            "sure is",
+            "totally",
+            "y",
+            "ya",
+            "yah",
+            "yeah",
+            "yep",
+            "yeppers",
+            "yer",
+            "yes",
+            "you bet",
+            "you betcha",
+            "yup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uncertain",
+          "synonyms": [
+            "could be",
+            "don't know",
+            "i guess it is",
+            "i guess so",
+            "i think it is",
+            "i think so",
+            "maybe",
+            "no idea",
+            "not sure",
+            "on the fence",
+            "uncertain",
+            "unknown",
+            "unsure"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1623819066711",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't know how to tell you our phone number yet. You can ask to speak to a real person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Business_Information-Phone_Number",
+      "dialog_node": "node_10_1623818186315",
+      "previous_sibling": "node_6_1623950969696"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We can start again any time you like."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Start_Over",
+      "dialog_node": "node_10_1623818730205",
+      "previous_sibling": "node_7_1623817995377"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Forty-Two"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#why",
+      "dialog_node": "node_10_1623819066041",
+      "previous_sibling": "node_7_1623819067005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name? Why, I'm Watson! What's your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#asking_who",
+      "dialog_node": "node_1_1623817995655",
+      "previous_sibling": "node_4_1623817995116"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As real as Peter Pan! You just have to believe in me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#chat_capabilities",
+      "dialog_node": "node_1_1623818186742",
+      "previous_sibling": "node_6_1623818188026"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I haven't a clue what you should do next. They haven't taught me that yet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#guidance_request",
+      "dialog_node": "node_1_1623818730492",
+      "previous_sibling": "node_7_1623818731468"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Pin is <? $Pin ?>\nYour Task State is <? $state ?>\nThe Person assigned to your task is <? $owner ?>\nYour Approval State is <? $ApprovalState ?> \nYour BPM ID is <? $id ?>\nYour Current Process is <? $model ?>\nYour Current Task Name is <? $name ?>, Your Name is <? $Name ?>\nYour Pin is <? $Pin ?>\nYour Process Display Name is <? $process_name ?> \nYour Task At Risk Time is <? $at_risk_time ?> \n\n\n\n\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1623880761412",
+      "conditions": "",
+      "dialog_node": "node_1_1624028203081"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Everything is just ducky!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General-Conversation",
+      "dialog_node": "node_2_1623818187601",
+      "previous_sibling": "node_5_1623818186922"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "transfer_info": {
+              "target": {}
+            },
+            "agent_available": {
+              "message": ""
+            },
+            "agent_unavailable": {
+              "message": ""
+            }
+          }
+        ]
+      },
+      "parent": "node_8_1623819065392",
+      "conditions": "@yes",
+      "dialog_node": "node_2_1623853695449"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Watson Assistant is an super advanced and intelligent collection of machine learning algorithms. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-About_VAs",
+      "dialog_node": "node_3_1623818188289",
+      "previous_sibling": "node_2_1623818187601"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Totally 100% Secure."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Help-Security_Assurance",
+      "dialog_node": "node_3_1623819065767",
+      "previous_sibling": "node_8_1623819065392"
+    },
+    {
+      "type": "standard",
+      "title": "pin number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me look up <? $Pin ?> for you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1623815621800",
+      "context": {
+        "Pin": "<? @PinNumber.literal ?>"
+      },
+      "conditions": "@PinNumber",
+      "dialog_node": "node_4_1623815728492"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't know how help you apply for unemployment yet. You can ask to speak to a real person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#applyForUnemployment",
+      "dialog_node": "node_4_1623817995116",
+      "previous_sibling": "node_6_1623817993535"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to Einstein time is a concept relative to how fast you're traveling and is warped by the gravitational fields of massive objects. Does that help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Time",
+      "dialog_node": "node_4_1623818731209",
+      "previous_sibling": "node_6_1623818730816"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can definitely help you with that in the future, just not right now. You can ask to speak to a real person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eligibility",
+      "dialog_node": "node_5_1623818186922",
+      "previous_sibling": "node_1_1623818186742"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, got it. We'll skip to the chase."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Control_Skip_Step",
+      "dialog_node": "node_5_1623818187240",
+      "previous_sibling": "node_6_1623818186508"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anger is not in my vocabulary."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Customer_Emotion_Anger",
+      "dialog_node": "node_5_1623818187355",
+      "previous_sibling": "node_7_1623818187818"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you kidding? I love this job! Helping people by answering questions! What's not to love?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Work",
+      "dialog_node": "node_5_1623818731797",
+      "previous_sibling": "node_4_1623818731209"
+    },
+    {
+      "type": "standard",
+      "title": "Change Password",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't know how to change account information yet. You can ask to speak to a real person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Account_Access-Profile_Password",
+      "dialog_node": "node_6_1623817993535",
+      "previous_sibling": "node_7_1623815481974"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's go back to the last question then!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Control_Go_Back",
+      "dialog_node": "node_6_1623818186508",
+      "previous_sibling": "node_10_1623818186315"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perhaps you'd like to talk to a person?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Feedback_Negative",
+      "dialog_node": "node_6_1623818188026",
+      "previous_sibling": "node_5_1623818187355"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're quite welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Thanks",
+      "dialog_node": "node_6_1623818730816",
+      "previous_sibling": "node_10_1623818730205"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Pin is <? $ID ?>\nYour Task State is <? $state ?>\nThe Person assigned to your task is <? $owner ?>\nYour Approval State is <? $ApprovalState ?> \nYour BPM ID is <? $id ?>\nYour Current Process is <? $model ?>\nYour Current Task Name is <? $name ?>, Your Name is <? $Name ?>\nYour Pin is <? $Pin ?>\nYour Process Display Name is <? $process_name ?> \nYour Task At Risk Time is <? $at_risk_time ?> \n\n\n\n\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#diagnostic || $model && #AskAboutStatus",
+      "dialog_node": "node_6_1623950969696",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Chat Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am your Watson Assistant. I can help with setting up unemployment or checking on a claim."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#chat_capabilities",
+      "dialog_node": "node_7_1623815481974",
+      "previous_sibling": "node_8_1623815621800"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well hello to you to!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Greetings",
+      "dialog_node": "node_7_1623817995377",
+      "previous_sibling": "node_9_1623817996725"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok then. I'll be here if you decide to come back."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Control_Stop_Conversation",
+      "dialog_node": "node_7_1623818187818",
+      "previous_sibling": "node_5_1623818187240"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ta ta for now!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_7_1623818731468",
+      "previous_sibling": "node_5_1623818731797"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Without that information I cannot go on."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#why_needed",
+      "dialog_node": "node_7_1623819066711",
+      "previous_sibling": "node_10_1623819066041"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "2001 A Space Odyssey might have been the last good one I've seen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#movie_conversation",
+      "dialog_node": "node_7_1623819067005",
+      "previous_sibling": "node_9_1623819066419"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Your Pin is <? $Pin ?>, \nYour Current Process is <? $model ?>, \nYour Name is <? $Name ?>, \nYour BPM ID is <? $id ?>, \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623815728492",
+      "conditions": "$Pin && #BPM",
+      "dialog_node": "node_7_1623880761412"
+    },
+    {
+      "type": "standard",
+      "title": "Check Status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'll need to know your pin number in order to look up your status.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#AskAboutStatus && !$model",
+      "dialog_node": "node_8_1623815621800",
+      "previous_sibling": "node_3_1623818188289"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The real people are working on getting you your money while I man the chats. Would you like me to connect you to one?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Help-Connect_to_Agent",
+      "dialog_node": "node_8_1623819065392",
+      "previous_sibling": "node_1_1623818730492"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's just my IBM shining through. But thanks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Conversation-Feedback_Positive",
+      "dialog_node": "node_9_1623817996725",
+      "previous_sibling": "node_1_1623817995655"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awww.... I'm starting to get feels."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#joy",
+      "dialog_node": "node_9_1623819066419",
+      "previous_sibling": "node_3_1623819065767"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "BPM Skill",
+  "language": "en",
+  "description": ""
+}
