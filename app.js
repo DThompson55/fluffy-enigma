@@ -123,7 +123,7 @@ app.post('/api/message', function(req, res) {
           delete wa_context_vbls.output;// = "set to none"
           delete wa_context_vbls.internal;// = "set to none"
           delete wa_context_vbls['@metadata'];// = "set to none"
-          //console.log("wa_context_vbls SKILLS from WA ",data.result.context.skills['main skill'].user_defined)  
+          console.log("wa_context_vbls SKILLS from WA ",data.result.context.skills['main skill'].user_defined)  
           //console.log("returned data is ",data)
 
           payload.context.skills['main skill'].user_defined = wa_context_vbls;
