@@ -25,17 +25,17 @@ var Api = (function() {
       requestPayload = JSON.parse(newPayloadStr);
       if ( context ) {
         requestPayload.context = context;
-        console.log("CONTEXT IS SET TO ",requestPayload.context.skills['main skill'])
+        // console.log("CONTEXT IS SET TO ",requestPayload.context.skills['main skill'])
       }
-      console.log("RQ "+JSON.stringify(requestPayload))
+      // console.log("RQ "+JSON.stringify(requestPayload))
     },
     getResponsePayload: function() {
       return responsePayload;
     },
     setResponsePayload: function(newPayloadStr) {
       responsePayload = JSON.parse(newPayloadStr).result;
-      console.log("RESP Context "+JSON.stringify(responsePayload.context)) 
-      console.log("RESP X "+JSON.stringify(responsePayload)) 
+      // console.log("RESP Context "+JSON.stringify(responsePayload.context)) 
+      // console.log("RESP X "+JSON.stringify(responsePayload)) 
       context = responsePayload.context 
     
     },
@@ -101,7 +101,7 @@ var Api = (function() {
     }
   
     // Send request
-    console.log("Just before the send ",params)
+    // console.log("Just before the send ",params)
     http.send(params);
   }
 }());

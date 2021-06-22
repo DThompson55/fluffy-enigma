@@ -31,6 +31,7 @@ var ConversationPanel = (function () {
       Api.sendRequest('', null);
     });
     setupInputBox();
+    console.log("Conv set init")
   }
   // Set up callbacks on payload setters in Api module
   // This causes the displayMessage function to be called when messages are sent / received
@@ -39,16 +40,20 @@ var ConversationPanel = (function () {
     Api.setRequestPayload = function (newPayloadStr) {
       currentRequestPayloadSetter.call(Api, newPayloadStr);
       displayMessage(JSON.parse(newPayloadStr), settings.authorTypes.user);
+      console.log("Conv update chat setup")
+
     };
 
     var currentResponsePayloadSetter = Api.setResponsePayload;
     Api.setResponsePayload = function (newPayloadStr) {
       currentResponsePayloadSetter.call(Api, newPayloadStr);
       displayMessage(JSON.parse(newPayloadStr).result, settings.authorTypes.watson);
+      console.log("Conv payload setter")
     };
 
     Api.setErrorPayload = function (newPayload) {
       displayMessage(newPayload, settings.authorTypes.watson);
+      console.log("Conv error payload")
     };
   }
 
@@ -76,9 +81,11 @@ var ConversationPanel = (function () {
 
       dummy = Common.buildDomElement(dummyJson);
       document.body.appendChild(dummy);
+      console.log("Conv setup input box")
     }
 
     function adjustInput() {
+      console.log("Conv adjust input")
       if (input.value === '') {
         // If the input box is empty, remove the underline
         input.classList.remove('underline');
@@ -122,6 +129,7 @@ var ConversationPanel = (function () {
 
   // Display a user or Watson message that has just been sent/received
   function displayMessage(newPayload, typeValue) {
+    console.log("Conv disp msg")
     var isUser = isUserMessage(typeValue);
     //var textExists = newPayload.generic;
     if ((newPayload.output && newPayload.output.generic) ||  newPayload.input){
@@ -142,6 +150,7 @@ var ConversationPanel = (function () {
 
   // Recurisive function to add responses to the chat area
   function setResponse(responses, isUser, chatBoxElement, index, isTop) {
+    console.log("Conv set resp")
     if (index < responses.length) {
       var res = responses[index];
       if (res.type !== 'pause') {
@@ -170,6 +179,7 @@ var ConversationPanel = (function () {
 
   // Constructs new DOM element from a message
   function getDivObject(res, isUser, isTop) {
+    console.log("Conv getDiv")
     var classes = [(isUser ? 'from-user' : 'from-watson'), 'latest', (isTop ? 'top' : 'sub')];
     var messageJson = {
       // <div class='segments'>
@@ -198,6 +208,7 @@ var ConversationPanel = (function () {
   // Returns true if user, false if Watson, and null if neither
   // Used to keep track of whether a message was from the user or Watson
   function isUserMessage(typeValue) {
+    console.log("Conv isUserMsg")
     if (typeValue === settings.authorTypes.user) {
       return true;
     } else if (typeValue === settings.authorTypes.watson) {
@@ -207,6 +218,7 @@ var ConversationPanel = (function () {
   }
 
   function getOptions(optionsList, preference) {
+    console.log("Conv getOptions")
     var list = '';
     var i = 0;
     if (optionsList !== null) {
@@ -234,6 +246,7 @@ var ConversationPanel = (function () {
   }
 
   function getResponse(responses, gen) {
+    console.log("Conv getResp")
     var title = '', description = '';
     if (gen.hasOwnProperty('title')) {
       title = gen.title;
@@ -274,6 +287,7 @@ var ConversationPanel = (function () {
 
   // Constructs new generic elements from a message payload
   function buildMessageDomElements(newPayload, isUser) {
+    console.log("Conv build DOM")
     var textArray = isUser ? newPayload.input.text : newPayload.output.text;
     if (Object.prototype.toString.call(textArray) !== '[object Array]') {
       textArray = [textArray];

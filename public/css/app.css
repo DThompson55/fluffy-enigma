@@ -49,7 +49,7 @@ div {
 }
 
 #contentParent {
-  height: 100%;
+  height: 100%%;
 }
 
 .responsive-columns-wrapper {
@@ -75,7 +75,7 @@ div {
 .chat-column {
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 300px;
   padding: 0.9375rem 0 0.625rem 0;
   margin: auto;
   text-align: left;
