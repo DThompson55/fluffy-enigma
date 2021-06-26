@@ -7,35 +7,67 @@
 
 require('dotenv').config();
 var request = require('request');
-//console.log(process.env);
 
+// The held token - is it secure to do it this way? IDK
+var csrf_token = ""
 
-function login(callback){
-var options = {
-  'method': 'POST',
-  'strictSSL': false,
-  'url': 'https://'+process.env.BPM_SERVER+':'+process.env.BPM_PORT+'/bpm/system/login?refresh_groups=true&requested_lifetime=7200',
-  'headers': {
-    'Content-Type': 'application/json',
-    'Accept': 'application/json',
-    'Authorization': process.env.BPM_SERVER_AUTH,
-  },
-  body: JSON.stringify({
-    "refresh_groups": true,
-    "requested_lifetime": 7200
+//
+//
+//
+function login2(callback){
+  var options = {
+    'method': 'POST',
+    'strictSSL': false,
+    'url': 'https://'+process.env.BPM_SERVER+':'+process.env.BPM_PORT+'/bpm/system/login?refresh_groups=true&requested_lifetime=7200',
+    'headers': {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Authorization': process.env.BPM_SERVER_AUTH,
+    },
+    body: JSON.stringify({
+      "refresh_groups": true,
+      "requested_lifetime": 7200
+    })
+  }
+    request(options, function (error, response, body) { // get a csrf token
+      var jbod = JSON.parse(body)
+      if (jbod.error_number) throw new Error(body);
+      csrf_token = jbod.csrf_token
+      callback()
   })
-
-};
-
-//console.log(options)
-
-request(options, function (error, response) {
-  if (error) throw new Error(error);
-  callback(JSON.parse(response.body).csrf_token)
-});
 }
 
-function getClients(token, callback){
+function login1( callback ){
+    callback() // see if existing csrf token is still good
+}
+
+//
+//
+//
+function callBPMAPI(options, callback){  
+  login1(function(){
+    request(options, function (error, response, body) {
+      var jbod = JSON.parse(body)
+      if (!jbod.error_number) 
+       callback(jbod);
+      else {
+        login2(function(){ 
+          options.headers.BPMCSRFToken = csrf_token;           
+          request(options, function (error, response, body) {
+            var jbod = JSON.parse(body)
+               if (jbod.error_number) {throw new Error(body);}
+               callback(jbod);
+            });
+          });
+         }
+      });
+    })
+  }
+
+//
+//
+//
+function getAllTasks(callback){
 var options = {
   'method': 'GET',
   'strictSSL': false,
@@ -43,44 +75,33 @@ var options = {
   'headers': {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
-    'BPMCSRFToken': token,
+    'BPMCSRFToken': csrf_token,
     'Authorization': process.env.BPM_SERVER_AUTH,
   }
 };
-request(options, function (error, response) {
-  if (error) throw new Error(error);
-  callback(JSON.parse(response.body));
-});
+  callBPMAPI(options, function(body){
+    callback(body)
+  });
 }
 
-function get_user_task(id_of, tasks){
+
+//
+//
+//
+function getTaskByUserID(id_of, callback){ // there must be a more efficient way to get this, and it is specific to this datamodel for this task
+  getAllTasks(function(tasks){
   for (const element of tasks.user_task_instances) {
-    //console.log(element.input[1].data.ID, id_of)
-    if (element.input[1].data.ID == id_of){
-     return(element);
+    if (element.model == 'Eligibilty Review Process' ) {
+      try {
+        if (element.input[1].data.ID == id_of){
+         callback(element);
+        }
+      } catch (e) {}
     }
   }
+})
 }
-
-function getTaskByUserID(id_of, callback){
-      login(function(token){
-      getClients(token,function(res){
-       if (!res.error_number){
-        callback(get_user_task(id_of, res))
-        }
-       if (res.error_number){
-        console.log(res)
-        }
-      })
-     })
-    }
-
-//getClient("002")
-//console.log(AuthToken)
 
 module.exports = {
-    getTaskByUserID: getTaskByUserID
-}
-
-
-
+    getTaskByUserID: getTaskByUserID,
+ }
