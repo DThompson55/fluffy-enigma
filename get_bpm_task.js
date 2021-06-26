@@ -71,7 +71,7 @@ function getAllTasks(callback){
 var options = {
   'method': 'GET',
   'strictSSL': false,
-  'url': 'https://'+process.env.BPM_SERVER+':'+process.env.BPM_PORT+'/bpm/user-tasks?states=claimed,ready&optional_parts=data',
+  'url': 'https://'+process.env.BPM_SERVER+':'+process.env.BPM_PORT+'/bpm/user-tasks?states=claimed,ready&optional_parts=data&model=Eligibilty Review Process',
   'headers': {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
